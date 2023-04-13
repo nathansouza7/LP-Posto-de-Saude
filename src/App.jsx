@@ -1,17 +1,16 @@
-import Global from "./styles/global";
-
-import { Header } from "./pages/Header/Header";
-import { Home } from "./pages/Home/Home";
-import { Services } from "./pages/Services/Services";
-
+import { Home } from "./components/Home";
+import styles from "./App.module.css";
+import { Services } from "./components/Services";
 
 export function App() {
-  return (
-    <>
-      <Global />
-      <Header />
-      <Home />
-      <Services />
-    </>
-  )
+    return (
+        <div>
+            <div className={styles['background-blue']}>
+                <Home />
+            </div>
+            <div className={styles['background-white']}>
+                <Services />
+            </div>
+        </div>
+    );
 }
