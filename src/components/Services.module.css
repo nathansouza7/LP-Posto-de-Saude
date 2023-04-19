@@ -1,6 +1,13 @@
 .service-container {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     width: 85vw;
     max-width: 1900px;
     margin: 0rem auto;
+}
+
+h2 {
+    padding: 2rem 0;
+    text-align: center;
+    color: var(--blue-300);
+    font-size: clamp(1.5rem, 3vw, 3rem);
 }
