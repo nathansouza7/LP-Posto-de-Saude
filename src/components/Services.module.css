@@ -5,7 +5,7 @@
     margin: 0rem auto;
 }
 
-h2 {
+.heading {
     padding: 2rem 0;
     text-align: center;
     color: var(--blue-300);

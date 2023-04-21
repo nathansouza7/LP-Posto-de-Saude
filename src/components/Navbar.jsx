@@ -10,7 +10,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
-import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
+import AccessTimeFilledIcon from '@mui/icons-material/AccessTimeFilled';
 import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 
@@ -28,8 +28,8 @@ export function Navbar(){
             icon: <InfoIcon />,
         },
         {
-            text: "Depoimentos",
-            icon: <CommentRoundedIcon />,
+            text: "Horários",
+            icon: <AccessTimeFilledIcon />,
         },
         {
             text: "Profissionais",
@@ -45,7 +45,7 @@ export function Navbar(){
             <div className={styles["navbar-links-container"]}>
                 <a href="">Inicio</a>
                 <a href="">Serviços</a>
-                <a href="">Depoimentos</a>
+                <a href="">Horários</a>
                 <a href="">Profissionais</a>
                 <a href="">Contato</a>
             </div>
