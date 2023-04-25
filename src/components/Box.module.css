@@ -1,0 +1,21 @@
+.box {
+  background-color: var(--blue-600);
+  border-radius: 15px;
+  padding: 10px;
+  width: 220px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.box h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.box p {
+  font-size: 1rem;
+}
