@@ -3,6 +3,7 @@ import styles from "./App.module.css";
 import { Services } from "./components/Services";
 import { OpeningHours } from "./components/OpeningHours";
 import { Professionals } from "./components/Professionals";
+import { Contact } from "./components/Contact";
 
 export function App() {
     return (
@@ -18,6 +19,9 @@ export function App() {
             </div>
             <div className={styles['background-white']}>
                 <Professionals />
+            </div>
+            <div className={styles['background-blue']}>
+                <Contact />
             </div>
         </div>
     );

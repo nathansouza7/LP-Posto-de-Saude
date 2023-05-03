@@ -8,6 +8,7 @@
 .heading {
     padding: 2rem 0;
     text-align: center;
+    text-transform: uppercase;
     color: var(--blue-300);
     font-size: clamp(1.5rem, 3vw, 3rem);
 }

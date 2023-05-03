@@ -8,7 +8,6 @@
 }
 
 .banner-container {
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,16 +20,7 @@ img {
 
 .image-section {
     max-width: 600px;
-    flex: 1;
     padding-right: 2.5rem;
-}
-
-.text-section {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
 }
 
 .heading {
@@ -47,39 +37,19 @@ img {
 }
 
 @media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .banner-container {
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .image-section {
-        padding: 1rem 0 0 0;
-        width: 100%;
-        max-width: 400px;
-    }
-
-    .heading {
+        min-height: 80vh;
         text-align: center;
     }
 
-    .text-section {
-        justify-content: center;
-        align-items: center;
-    }
-
-    .text {
-        text-align: center;
-    }
-}
-
-@media (max-width: 376px) {
-    .heading {
-        padding-top: 1.5rem;
-    }
-
     .image-section {
-        padding: 1rem;
+        padding: 5rem 0;
         width: 100%;
     }
 }
