@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 1284px;
   margin: 0 auto;
-  min-height: 100vh;
+  padding: 4rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +21,7 @@
 
 .item img {
   width: 100%;
-  height: 90%;
+  height: 100%;
   border-radius: 12px;
   pointer-events: none;
 }
@@ -32,12 +32,10 @@
 }
 
 .arrow {
-  transform: translateY(-50%);
   z-index: 2;
   background-color: transparent;
   border: none;
   outline: none;
-  font-size: 2rem;
   cursor: pointer;
   color: var(--blue-300);
 }
@@ -51,10 +49,5 @@
     min-height: 231px;
     min-width: 206px;
     padding: 5px;
-  }
-
-  .container {
-    min-height: 50vh;
-    /* background-color: blue; */
   }
 }

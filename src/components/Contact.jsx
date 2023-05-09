@@ -19,13 +19,18 @@ export function Contact() {
             <div className={styles["content-two"]}>
                 <div className={styles.form}>
                     <h3>Gostaria de contribuir avaliando essa página?</h3>
-                    <button>RESPONDER FORMULÁRIO</button>
+                    <a
+                        href="https://forms.gle/4v2KiUzEFcdpdV399"
+                        target="_blank"
+                    >
+                        <button>RESPONDER FORMULÁRIO</button>
+                    </a>
                 </div>
                 <div className={styles.info}>
                     <span>
                         Este site foi desenvolvido com o intuíto de manter os
-                        moradores do sítio Cachoeira do Norte informados sobre
-                        os serviços da Unidade Básica de Saúde da comunidade
+                        moradores da Cachoeira do Norte informados sobre os
+                        serviços da Unidade Básica de Saúde da comunidade
                     </span>
                 </div>
             </div>
