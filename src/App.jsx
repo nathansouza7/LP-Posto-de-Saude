@@ -8,19 +8,19 @@ import { Contact } from "./components/Contact";
 export function App() {
     return (
         <div>
-            <div className={styles['background-blue']}>
+            <div id="home" className={styles['background-blue']}>
                 <Home />
             </div>
-            <div className={styles['background-white']}>
+            <div id="services" className={styles['background-white']}>
                 <Services />
             </div>
-            <div className={styles['background-blue']}>
+            <div id="timetable" className={styles['background-blue']}>
                 <OpeningHours />
             </div>
-            <div className={styles['background-white']}>
+            <div id="professionals" className={styles['background-white']}>
                 <Professionals />
             </div>
-            <div className={styles['background-blue']}>
+            <div id="contact" className={styles['background-blue']}>
                 <Contact />
             </div>
         </div>

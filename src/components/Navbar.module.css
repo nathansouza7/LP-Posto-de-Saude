@@ -1,8 +1,20 @@
-nav {
+.nav {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 90px;
+}
+
+.navFixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-color: var(--blue-800);
+  transition: ease-in-out .3s;
+  min-height: 80px;
+  filter: drop-shadow(0 -10px 20px var(--white));
 }
 
 .navbar-links-container a {
@@ -38,8 +50,12 @@ nav {
   }
 }
 @media (max-width: 800px) {
-  nav {
+  .nav {
     justify-content: flex-end;
+  }
+
+  .navFixed {
+    padding-right: 3rem;
   }
 
   .navbar-links-container {

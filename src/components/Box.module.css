@@ -1,5 +1,6 @@
 .box {
-  background-color: var(--blue-600);
+  background-color: var(--blue-300);
+  box-shadow: 2px 4px 4px #0000003b;
   border-radius: 15px;
   padding: 10px;
   width: 220px;
@@ -11,11 +12,13 @@
   text-align: center;
 }
 
-.box h2 {
+.box h3 {
   font-size: 1.2rem;
   font-weight: bold;
+  color: var(--black);
 }
 
 .box p {
   font-size: 1rem;
+  color: var(--black);
 }
