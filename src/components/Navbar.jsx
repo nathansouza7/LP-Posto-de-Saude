@@ -26,7 +26,7 @@ export function Navbar() {
     const [isSticky, setSticky] = useState(false);
     const menuOptions = [
         {
-            text: "Inicio",
+            text: "Início",
             icon: <HomeIcon />,
             link: "#home",
         },
@@ -67,7 +67,7 @@ export function Navbar() {
     return (
         <nav className={`${styles.nav} ${isSticky ? styles.navFixed : ""}`}>
             <div className={styles["navbar-links-container"]}>
-                <AnchorLink href="#home">Inicio</AnchorLink>
+                <AnchorLink href="#home">Início</AnchorLink>
                 <AnchorLink href="#services">Serviços</AnchorLink>
                 <AnchorLink href="#timetable">Horários</AnchorLink>
                 <AnchorLink href="#professionals">Profissionais</AnchorLink>

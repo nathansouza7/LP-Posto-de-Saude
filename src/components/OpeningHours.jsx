@@ -17,7 +17,7 @@ export function OpeningHours() {
                         <strong>7h30 às 11h30</strong> e das{" "}
                         <strong>13h às 17h</strong>. A médica Lívia Nobre atende
                         toda quarta-feira e a enfermeira Fernanda Albuquerque
-                        nós dias restantes . Durante esse período, você pode
+                        nos dias restantes. Durante esse período, você pode
                         marcar consultas, receber vacinas, realizar exames e
                         obter orientações sobre saúde em geral. Lembre-se de que
                         a prevenção é sempre a melhor opção, então não deixe de

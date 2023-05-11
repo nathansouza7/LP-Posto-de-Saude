@@ -12,7 +12,7 @@ export function Contact() {
                     <span>Cep: 62375-000</span>
                 </div>
                 <div className={styles["content-box"]}>
-                    <span>Unidade Basica De Saude</span>
+                    <span>Unidade Básica De Saúde</span>
                     <span>CNES: 9465626</span>
                 </div>
             </div>
